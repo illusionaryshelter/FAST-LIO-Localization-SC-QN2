@@ -126,17 +126,11 @@ add_library(${PROJECT_NAME}_modules src/Scancontext.cpp src/fast_lio_localizatio
 target_link_libraries(${PROJECT_NAME}_modules ${COMMON_LIBS})
 
 add_executable(${PROJECT_NAME}_node src/main.cpp)
-add_executable(bag_extract src/bag_extract.cpp)
-add_executable(kitti_bag src/kitti_bag.cpp)
 ament_target_dependencies(${PROJECT_NAME}_node ${dependencies})
-ament_target_dependencies(bag_extract ${dependencies})
-ament_target_dependencies(kitti_bag ${dependencies})
 target_link_libraries(${PROJECT_NAME}_node ${COMMON_LIBS} ${PROJECT_NAME}_modules)
-target_link_libraries(bag_extract ${COMMON_LIBS})
-target_link_libraries(kitti_bag ${COMMON_LIBS})
 
 install(TARGETS
-  ${PROJECT_NAME}_node ${PROJECT_NAME}_modules bag_extract kitti_bag
+  ${PROJECT_NAME}_node ${PROJECT_NAME}_modules
   EXPORT export_${PROJECT_NAME}
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
