@@ -2,7 +2,7 @@
 
 	<arg name="rviz" default="true" />
 	<arg name="lidar" default="ouster" /> <!-- ouster, velodyne, livox -->
-	<arg name="odom_topic" default="/Odometry" />
+	<arg name="odom_topic" default="/Odometry" />`
 	<arg name="lidar_topic" default="/cloud_registered" />
 
 	<!-- visualize -->
