@@ -51,7 +51,7 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
   ```
 
 ## How to run
-+ Then run (change config files in third_party/`FAST_LIO`)
++ Then run (change config files in `FAST_LIO2`)
      ```shell
   ros2 launch fast_lio_localization_sc_qn  run.launch.py lidar:=ouster
   ros2 launch fast_lio_localization_sc_qn  run.launch.py lidar:=velodyne
