@@ -16,7 +16,7 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
 
 ## Video clip - https://youtu.be/MQ8XxRY472Y
 
-## DOING
+## Developing
 Add visualisation on 2D maps(OccupancyGrid and LaserScan)
 
 ## Main difference between FAST-LIO-Localization-QN and FAST-LIO-Localization-SC-QN
