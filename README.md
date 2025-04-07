@@ -1,5 +1,4 @@
 # FAST-LIO-Localization-SC-QN
-
 Thanks to the original author [engcang](https://github.com/engcang) for his help in the process!
 
 + This repository is a map-based localization implementation combining [FAST-LIO2](https://github.com/hku-mars/FAST_LIO) as an odometry with [Quatro](https://quatro-plusplus.github.io/) and [Nano-GICP module](https://github.com/engcang/nano_gicp) as a map matching method, and with [ScanContext](https://github.com/gisbi-kim/scancontext_tro) as a loop candidate detection method
@@ -18,6 +17,8 @@ Thanks to the original author [engcang](https://github.com/engcang) for his help
 ## Video clip - https://youtu.be/MQ8XxRY472Y
 
 <br>
+## TODO
+Add visualisation on 2D maps(OccupancyGrid and LaserScan)
 
 ## Main difference between FAST-LIO-Localization-QN and FAST-LIO-Localization-SC-QN
 + FAST-LIO-Localization-QN sets loop candidate pair as (current keyframe, the closest and old enough keyframe saved in the map data)
